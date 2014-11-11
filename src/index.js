@@ -12,14 +12,13 @@ module.exports = function(R) {
     * @class R.SimpleUplinkServer
     */
     class SimpleUplinkServer {
+        
         /**
         * <p> Initializes the SimpleUplinkServer according to the specifications provided </p>
         * @method createApp
         * @param {object} specs All the specifications of the SimpleUplinkServer
         * @return {SimpleUplinkServerInstance} SimpleUplinkServerInstance The instance of the created SimpleUplinkServer
         */
-
-
         constructor(specs){
           _.dev(() => 
             specs.store.should.be.an.Array &&
