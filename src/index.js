@@ -1,7 +1,6 @@
 module.exports = function(R) {
     const io = require('socket.io');
     const _ = require('lodash');
-    const assert = require('assert');
     const co = require('co');
     const EventEmitter = require('events').EventEmitter;
     const bodyParser = require('body-parser');
