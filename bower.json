@@ -1,0 +1,16 @@
+{
+  "name": "nexus-uplink-simple-client",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Hadrien-DELAITRE/nexus-uplink-simple-client",
+  "authors": [
+    "Elie Rotenberg <elie@rotenberg.io>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
